@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<body>
+    <html>
+        <head>
+        <title>
+            HYBRID-WARE/shop/Samsung
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <img class="logo" src="Hybrid_Ware logo.jpg" alt="logo" width="200px" height="200px" align="center">
+    <h1>
+        Welcome to the Samsung Section!
+    </h1>
+    <p>
+        Choose what type of Samasig Hardware Device you want. But you can use the link of the navigation bar to go back to the Shop Section or you can chosse another hardware device.
+    </p>
+    <!-- The navigation menu -->
+    <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+      <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Items (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Remove all Items</button></div>
+      </div>
+  </nav>
+<div class="navbar">
+<a href="Shop.html">Shop</a>
+<a href="Apple.html">Apple</a>
+<a class="active" href="Samsung.html">Samsung</a>
+<a href="Windows.html">Windows</a>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script><link rel="stylesheet" href="Samsung.css">
+
+<h2>
+    Shop for Galaxy Phone:
+</h2>
+<!-- Main -->
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+    <h3 class="card-title">Smasung Glaxy S23</h3>
+  <img class="card-img-top" src="Samsung.png" alt="Card image cap">
+  <div class="card-block">
+    <h6 class="card-text">Price: £333.88</h6>
+    <a href="#" data-name="Samsung_Glaxy_S23" data-price="333.88" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+     <h3 class="card-title">Samsung S23 Ultra</h3>
+  <img class="card-img-top" src="Samsung23Ultra.png" alt="Card image cap">
+  <div class="card-block">
+    <h6 class="card-text">Price: £499.00</h6>
+    <a href="#" data-name="Samsung_Glaxy_S23_Ultra" data-price="499.00" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+    <h3 class="card-title">Samsung Z Flip5</h3>
+  <img class="card-img-top" src="Images/SamsungFlipZ5.png" alt="Card image cap">
+  <div class="card-block">
+    <h6 class="card-text">Price: £899.00</h6>
+    <a href="#" data-name="Samsung_Z_Flip5" data-price="899.00" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+    <h3 class="card-title">Samsung Glaxy Z Fold 5</h3>
+  <img class="card-img-top" src="SamsungGlaxyZFold5.png" alt="Card image cap">
+  <div class="card-block">
+    <h6 class="card-text">Price: £1,000.00</h6>
+    <a href="#" data-name="Samsung_Glaxy_Z_Fold_5" data-price="1,000.00" class="add-to-cart btn btn-primary">Add to cart</a>
+  </div>
+</div>
+<h2>
+    Shop Tablet:
+</h2>
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 30rem;">
+    <h3 class="card-title">Samsung Tab</h3>
+  <img class="card-img-top" src="SamsungGlaxyTablet.png" alt="Card image cap">
+  <div class="card-block">
+    <h6 class="card-text">Price: £400.00</h6>
+    <a href="#" data-name="Samsung_Galxy_Tablet" data-price="400.00" class="add-to-cart btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+</div>
+  <!-- Modal -->
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+            
+          </table>
+          <div>Total price: £<span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            <!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="Samsung.js"></script>
+</div>
+<footer>
+  <small><i>
+      Copyright 2023 Faris Hanif
+  </i></small>
+</footer>
+    </html>
+</body>

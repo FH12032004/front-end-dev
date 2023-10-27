@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<body>
+    <html>
+        <head>
+        <title>
+            HYBRID-WARE/Accounts
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Account.css">
+    </head>
+    <img class="logo" src="Hybrid_Ware logo.jpg" alt="logo" width="200px" height="200px" align="center">
+    <h1>
+        Create an Acounts from HYBRID-WARE
+    </h1>
+    <!-- The navigation menu -->
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="Shop.html">Shop</a>
+<a class="active" href="Accounts.html">Accounts</a>
+<a href="AboutUs.html">About us</a>
+</div>
+<h2>
+    To Sign Up Please Fill out this Form:
+</h2>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <P>
+        After that Create and email adress and a Pasword as well.
+    </P>
+    <form>
+          <label class="form-label" for="inputEmail">•Email:</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+          <label for="pwd">*Password:</label>
+          <input type="password"class="form-control" id="pwd" placeholder="Password" name="pwd" minlength="8"><br><br>
+          <input id="mySubmit" type="submit" value="Submit">
+         </form>
+    <script src="JS/Accounts.js"></script>
+  </form>
+  <footer>
+    <small><i>
+        Copyright 2023 Faris Hanif
+    </i></small>
+</footer>
+    </html>
+</body>

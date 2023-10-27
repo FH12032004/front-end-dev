@@ -1,0 +1,72 @@
+body{
+    background-color: grey;
+}
+
+* {box-sizing: border-box}
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        .navbar {
+          width: 100%;
+          background-color: white;
+          overflow: auto;
+        }
+        
+        .navbar a {
+          float: left;
+          padding: 12px;
+          color: black;
+          text-decoration: none;
+          font-size: 17px;
+          width: 25%; /* Four links of equal widths */
+          text-align: center;
+        }
+        
+        .navbar a:hover {
+          background-color:rgb(180, 176, 176);
+        }
+        
+        .navbar a.active {
+          background-color: rgb(27, 148, 241);
+        }
+        
+        @media screen and (max-width: 100px) {
+          .navbar a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left;
+          }
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          h1{
+            border: 1px solid blue;
+            padding: 25px;
+            background: url(Imagetextbackgorund.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            text-align: center;
+            color: white;
+          }
+          h2{
+            color: blue;
+          }
+          form { background-color:white;
+            font-family: Arial, sans-serif;
+            padding: 10px; }
+           label { float: left;
+            width: 100px;
+            clear: left;
+            text-align: right;
+            padding-right: 10px;
+            margin-top: 10px; }
+           input, textarea { margin-top: 10px;
+            display: block; }
+           #mySubmit { margin-left: 110px; }
+           footer{
+            color: white;
+            text-align: bottom;
+          }

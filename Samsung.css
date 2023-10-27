@@ -1,0 +1,74 @@
+body{
+    background-color: grey;
+}
+
+* {box-sizing: border-box}
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        .navbar {
+          width: 100%;
+          background-color: white;
+          overflow: auto;
+        }
+        
+        .navbar a {
+          float: left;
+          padding: 12px;
+          color: black;
+          text-decoration: none;
+          font-size: 17px;
+          width: 25%; /* Four links of equal widths */
+          text-align: center;
+        }
+        
+        .navbar a:hover {
+          background-color:rgb(180, 176, 176);
+        }
+        
+        .navbar a.active {
+          background-color: rgb(27, 148, 241);
+        }
+        
+        @media screen and (max-width: 100px) {
+          .navbar a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left;
+          }
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          h1{
+            border: 1px solid blue;
+            padding: 25px;
+            background: url(Imagetextbackgorund.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            text-align: center;
+            color: white;
+          }
+          p{
+            color:white;
+          }
+          h2{
+            color: blue;
+          }
+          body {
+            padding-top: 80px;
+          }
+          
+          .show-cart li {
+            display: flex;
+          }
+          .card {
+            margin-bottom: 50px;
+          }
+          .card-img-top {
+            width: 500px;
+            height: 450px;
+            align-self: center;
+          }
